@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SEUSViewController : UIViewController
+@interface SEUSViewController : UIViewController <NSURLConnectionDataDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 
 @end

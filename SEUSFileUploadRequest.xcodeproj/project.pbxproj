@@ -17,8 +17,7 @@
 		4D5C5F9B17B5AFFE004617B8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D5C5F9A17B5AFFE004617B8 /* Default@2x.png */; };
 		4D5C5F9D17B5AFFE004617B8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D5C5F9C17B5AFFE004617B8 /* Default-568h@2x.png */; };
 		4D5C5FA017B5AFFE004617B8 /* SEUSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5C5F9F17B5AFFE004617B8 /* SEUSViewController.m */; };
-		4D5C5FA317B5AFFE004617B8 /* SEUSViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D5C5FA117B5AFFE004617B8 /* SEUSViewController_iPhone.xib */; };
-		4D5C5FA617B5AFFE004617B8 /* SEUSViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D5C5FA417B5AFFE004617B8 /* SEUSViewController_iPad.xib */; };
+		4D5C5FAF17B5B027004617B8 /* SEUSFileUploadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5C5FAE17B5B027004617B8 /* SEUSFileUploadRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,8 +36,8 @@
 		4D5C5F9C17B5AFFE004617B8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		4D5C5F9E17B5AFFE004617B8 /* SEUSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEUSViewController.h; sourceTree = "<group>"; };
 		4D5C5F9F17B5AFFE004617B8 /* SEUSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEUSViewController.m; sourceTree = "<group>"; };
-		4D5C5FA217B5AFFE004617B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SEUSViewController_iPhone.xib; sourceTree = "<group>"; };
-		4D5C5FA517B5AFFE004617B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SEUSViewController_iPad.xib; sourceTree = "<group>"; };
+		4D5C5FAD17B5B027004617B8 /* SEUSFileUploadRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEUSFileUploadRequest.h; sourceTree = "<group>"; };
+		4D5C5FAE17B5B027004617B8 /* SEUSFileUploadRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEUSFileUploadRequest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +57,8 @@
 		4D5C5F7A17B5AFFE004617B8 = {
 			isa = PBXGroup;
 			children = (
-				4D5C5F8C17B5AFFE004617B8 /* SEUSFileUploadRequest */,
+				4D5C5FAC17B5B00D004617B8 /* SEUSFileUploadRequest */,
+				4D5C5F8C17B5AFFE004617B8 /* Sample Project */,
 				4D5C5F8517B5AFFE004617B8 /* Frameworks */,
 				4D5C5F8417B5AFFE004617B8 /* Products */,
 			);
@@ -82,17 +82,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4D5C5F8C17B5AFFE004617B8 /* SEUSFileUploadRequest */ = {
+		4D5C5F8C17B5AFFE004617B8 /* Sample Project */ = {
 			isa = PBXGroup;
 			children = (
 				4D5C5F9517B5AFFE004617B8 /* SEUSAppDelegate.h */,
 				4D5C5F9617B5AFFE004617B8 /* SEUSAppDelegate.m */,
 				4D5C5F9E17B5AFFE004617B8 /* SEUSViewController.h */,
 				4D5C5F9F17B5AFFE004617B8 /* SEUSViewController.m */,
-				4D5C5FA117B5AFFE004617B8 /* SEUSViewController_iPhone.xib */,
-				4D5C5FA417B5AFFE004617B8 /* SEUSViewController_iPad.xib */,
 				4D5C5F8D17B5AFFE004617B8 /* Supporting Files */,
 			);
+			name = "Sample Project";
 			path = SEUSFileUploadRequest;
 			sourceTree = "<group>";
 		};
@@ -108,6 +107,15 @@
 				4D5C5F9C17B5AFFE004617B8 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D5C5FAC17B5B00D004617B8 /* SEUSFileUploadRequest */ = {
+			isa = PBXGroup;
+			children = (
+				4D5C5FAD17B5B027004617B8 /* SEUSFileUploadRequest.h */,
+				4D5C5FAE17B5B027004617B8 /* SEUSFileUploadRequest.m */,
+			);
+			path = SEUSFileUploadRequest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,8 +174,6 @@
 				4D5C5F9917B5AFFE004617B8 /* Default.png in Resources */,
 				4D5C5F9B17B5AFFE004617B8 /* Default@2x.png in Resources */,
 				4D5C5F9D17B5AFFE004617B8 /* Default-568h@2x.png in Resources */,
-				4D5C5FA317B5AFFE004617B8 /* SEUSViewController_iPhone.xib in Resources */,
-				4D5C5FA617B5AFFE004617B8 /* SEUSViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +187,7 @@
 				4D5C5F9317B5AFFE004617B8 /* main.m in Sources */,
 				4D5C5F9717B5AFFE004617B8 /* SEUSAppDelegate.m in Sources */,
 				4D5C5FA017B5AFFE004617B8 /* SEUSViewController.m in Sources */,
+				4D5C5FAF17B5B027004617B8 /* SEUSFileUploadRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,22 +200,6 @@
 				4D5C5F9017B5AFFE004617B8 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		4D5C5FA117B5AFFE004617B8 /* SEUSViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D5C5FA217B5AFFE004617B8 /* en */,
-			);
-			name = SEUSViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		4D5C5FA417B5AFFE004617B8 /* SEUSViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D5C5FA517B5AFFE004617B8 /* en */,
-			);
-			name = SEUSViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -279,6 +270,7 @@
 				GCC_PREFIX_HEADER = "SEUSFileUploadRequest/SEUSFileUploadRequest-Prefix.pch";
 				INFOPLIST_FILE = "SEUSFileUploadRequest/SEUSFileUploadRequest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -290,6 +282,7 @@
 				GCC_PREFIX_HEADER = "SEUSFileUploadRequest/SEUSFileUploadRequest-Prefix.pch";
 				INFOPLIST_FILE = "SEUSFileUploadRequest/SEUSFileUploadRequest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
