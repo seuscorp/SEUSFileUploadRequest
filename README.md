@@ -3,14 +3,14 @@
 
 **Purpose**: Allows easy uploading of a UIImage to a web server by emulating an html file input
 
-** Key Features **: 
+** Key Features **
 
 * Easily used with all of Cocoas URLConnection Classes
 * Asyncronous Image Processing so your larger images don't block the main thread as they are preparing to be sent.
 * Mimics a file input request at the server.
 * Super easy to implement
 
-** Notes **:
+** Notes **
 
 * Currently only works with jpg and png file types
 
